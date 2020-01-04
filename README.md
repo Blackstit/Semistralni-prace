@@ -1,1 +1,1 @@
-# Seistralni-prace
+# Semistralni-prace
