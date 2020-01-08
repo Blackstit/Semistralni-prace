@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Choose one of 2 programs:
+
+- 'a' Program for finding largest palindrome product of two 3-digit numbers. from "https://projecteuler.net/"
+- 'b' Program for finding longest common subsequence from semester work
+- 'Exit' to exit the program
+
+See '--help' for an overview of the system.
+
