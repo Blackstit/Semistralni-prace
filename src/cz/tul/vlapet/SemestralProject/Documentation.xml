@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="3vlapetSemestralProjekt" default="create-javadoc" basedir=".">
+
+    <target name="create-javadoc" description="documentation" depends="">
+        <property name="app.name"    value="SemestralProjekt" />
+        <property name="app.version" value="3.1" />
+        <property name="app.author"  value="Vladislav Petrushkin" />
+        <property name="app.year"    value="2020" />
+        <property name="dir.package" value="cz.tul.vlapet.SemestralProject" />
+        <property name="dir.src"     value="./src" />
+        <property name="dir.doc"     value="./doc" />
+
+        <echo message="Create MyProject.doc." />
+        <mkdir dir="${dir.doc}" />
+
+        <javadoc destdir="${dir.doc}" 
+                 use="true"
+                 private="true"
+                 author="${app.author}" 
+                 version="${app.version}" 
+                 windowtitle="${app.name} API"
+                 doctitle="${app.name}" >
+	    </javadoc>
+    </target>
+</project>
+
